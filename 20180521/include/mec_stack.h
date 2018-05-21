@@ -3,7 +3,7 @@
 
 //定义一个控制头
 typedef struct MEC_STACK {
-	int *stack;
+	void **stack;
 	int capacity;
 	int top;
 }MEC_STACK;
